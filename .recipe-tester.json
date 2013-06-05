@@ -4,7 +4,7 @@
     "ami": "ami-c30360aa",
     "run_list": [
         "recipe[elasticsearch::default]",
-        "recipe[elasticsearch::nginx]",
+        "recipe[elasticsearch::proxy]",
         "recipe[elasticsearch::test]"
     ],
     "data_bags": {
