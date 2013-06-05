@@ -1,0 +1,11 @@
+{
+    "type": "chef-solo",
+    "ami": "ami-c30360aa",
+    "run_list": [
+        "recipe[elasticsearch::default]"
+    ],
+    "data_bags": {
+    },
+    "node_attributes": {
+    }
+}
