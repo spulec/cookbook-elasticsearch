@@ -3,7 +3,8 @@
     "chef_version": "11.4.4",
     "ami": "ami-c30360aa",
     "run_list": [
-        "recipe[elasticsearch::default]"
+        "recipe[elasticsearch::default]",
+        "recipe[elasticsearch::test]"
     ],
     "data_bags": {
     },
