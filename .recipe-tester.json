@@ -15,7 +15,11 @@
 
       "elasticsearch": {
         "cluster": { "name": "elasticsearch_vagrant" },
-    
+
+        "path": {
+          "data": "/usr/local/var/data/elasticsearch/disk1"
+        },
+
         "plugins": {
           "karmi/elasticsearch-paramedic": {}
         },
