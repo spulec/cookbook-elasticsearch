@@ -1,3 +1,6 @@
+[![Build Status](https://recipe-tester.com/repo/spulec/cookbook-elasticsearch/badge.png)](https://recipe-tester.com/repo/spulec/cookbook-elasticsearch/)
+
+
 Description
 -----------
 
